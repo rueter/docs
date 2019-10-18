@@ -4,7 +4,7 @@ title:  'Erzya UD'
 udver: '2'
 ---
 
-# UD for LANGUAGE <span class="flagspan"><img class="flag" src="../../flags/svg/RU-ERZYA.svg" /></span>
+# UD for Erzya <span class="flagspan"><img class="flag" src="../../flags/svg/RU-ERZYA.svg" /></span>
 
 ## Tokenization and Word Segmentation
 
@@ -45,26 +45,29 @@ udver: '2'
 
 * Nominal subject ([nsubj]()) is a noun phrase in the nominative case, without an adposition.
 
-* Clausal subject ([csubj]()) is a clause that functions as the subject and has.
+* Clausal subject ([csubj]()) is a clause that functions as the subject.
 
 * Nominal objects are noun phrases which are generally either in the nominative or genitive case, but they may also occur in the ablative or inessive case.
 
 * The following subtypes are used in Erzya:
-  * [aux:neg]() for the negative auxiliary verbs and particles
   * [acl:relcl]() for relative clause
+  * [advmod:tmod]() for advmod with temporal value
+  * [aux:cnd]() for the conditonal particle бу
+  * [aux:imp]() for the imperatives кадык 'let' and давай let's
+  * [aux:neg]() for the negative auxiliary verbs and particles
+  * [aux:opt]() for the optative particle
+  * [aux:q]() for the question adv in indirect questions of the Russian type
+  * [cc:preconj]() for conjunctor preceding first conjunct where the construction involves a pair
+  * [compound:coll]() for compound constructions indicating collectives according to mentioned elements or possibly more abstract
+  * [compound:redup]() for compound involving reduplication
+  * [compound:svc]() for second verb in consecutive events
+  * [flat:name]() for flat used in person names
+  * [nmod:comp]() for nmod before adverb requiring a standard of comparison
+  * [nmod:gobj]() for nmod with a genitive object noun, with deverbal	noun
+  * [nmod:gsubj]() for nmod with a genitive subject noun, with deverbal noun
+  * [obl:agent]() for obl with agent relation, such as genitive form personal pronouns with non-finite
   * [obl:tmod]() for obl relation with temporal value
   * [xcomp:ds]() for xcomp with a different subject from the one in the matrix verb
-  * [obl:agent]() for obl with agent relation, such as genitive form personal pronouns with non-finite
-  * [flat:name]() for flat used in person names
-  * [aux:q]() for question adv in indirect questions of the Russian type
-  * [nmod:gsubj]() for nmod with a genitive subject noun, with deverbal noun
-  * [nmod:gobj]() for nmod with a genitive object noun, with deverbal	noun
-  * [compound:svc]() for second verb in consecutive events
-  * [nmod:comp]() for nmod before adverb requiring a standard of comparison
-  * [advmod:tmod]() for advmod with temporal value
-  * [cc:preconj]() for conjunctor preceding first conjunct where the construction involves a pair
-  * [compound:redup]() for compound involving reduplication
-  * [compound:coll]() for compound constructions indicating collectives according to mentioned elements or possibly more abstract
 
 ## Treebanks
 
